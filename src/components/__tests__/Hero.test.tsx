@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import Hero from "../Hero";
 
 describe("Hero", () => {
-  it.skip("renders correctly", () => {
+  it("renders correctly", () => {
     render(<Hero />);
     expect(screen.getByText(/Maulana Akbar Ramadhan/i)).toBeInTheDocument();
     // It appears twice, so we check if at least one exists, or use getAllByText
