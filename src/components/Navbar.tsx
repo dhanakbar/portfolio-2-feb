@@ -122,7 +122,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let's Talk
+              Let&apos;s Talk
             </motion.a>
           </div>
 
@@ -180,7 +180,7 @@ export default function Navbar() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: navLinks.length * 0.1 }}
             >
-              Let's Talk
+              Let&apos;s Talk
             </motion.a>
           </div>
         </motion.div>

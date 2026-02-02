@@ -89,7 +89,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="gradient-text">Maulana Akbar Ramadhan</span>
           </motion.h1>
 
