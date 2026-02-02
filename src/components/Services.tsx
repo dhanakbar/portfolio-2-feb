@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   FaCode,
   FaPaintBrush,
@@ -56,7 +56,7 @@ const services = [
 ];
 
 export default function Services() {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -66,7 +66,7 @@ export default function Services() {
     },
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,
