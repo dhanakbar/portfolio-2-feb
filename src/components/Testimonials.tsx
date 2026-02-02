@@ -103,8 +103,8 @@ export default function Testimonials() {
             <span className="gradient-text">What People Say</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Testimonials from colleagues and mentors I've had the pleasure of
-            working with
+            Testimonials from colleagues and mentors I&apos;ve had the pleasure
+            of working with
           </p>
         </motion.div>
 
@@ -156,7 +156,7 @@ export default function Testimonials() {
 
                 {/* Testimonial text */}
                 <p className="text-gray-300 mb-6 leading-relaxed line-clamp-6">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
 
                 {/* Author info */}

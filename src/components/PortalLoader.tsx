@@ -12,8 +12,11 @@ export default function PortalLoader() {
     const visited = localStorage.getItem("hasVisitedPortfolio");
 
     if (visited) {
-      setIsLoading(false);
-      setHasVisited(true);
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+        setHasVisited(true);
+      }, 0);
+      return () => clearTimeout(timer);
     } else {
       // Show animation for first-time visitors
       const timer = setTimeout(() => {
