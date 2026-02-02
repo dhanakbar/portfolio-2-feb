@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { FaBriefcase, FaCalendar, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
@@ -96,7 +96,7 @@ const experiences = [
 ];
 
 export default function Journey() {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -106,7 +106,7 @@ export default function Journey() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { x: -50, opacity: 0 },
     visible: {
       x: 0,
